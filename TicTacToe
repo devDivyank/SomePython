@@ -66,7 +66,7 @@ while True:
     turn = choose_first()
     print(turn + " will start the game!")
 
-    play_game = input("Ready to play? (Y/N)")
+    play_game = input("Ready to play? (Y/N) ").upper()
     if play_game == "Y":
         game_on = True
     else:
