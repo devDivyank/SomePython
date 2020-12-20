@@ -1,7 +1,7 @@
 import math
 import random
 import string
- 
+
 def generate_fibbo(lst):
     while lst[-1]+lst[-2] <= 4000000:
         lst.append(lst[-1]+lst[-2])
