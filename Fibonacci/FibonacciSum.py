@@ -1,5 +1,4 @@
 import math
-import random
 import string
 
 def generate_fibbo(lst):
